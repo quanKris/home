@@ -58,6 +58,7 @@ const getWeatherData = async () => {
         windpower: data.condition.windLevel,
       };
     } else {
+        debugger
       // 获取 Adcode
       const adCode = await getAdcode(mainKey);
       console.log(adCode);
