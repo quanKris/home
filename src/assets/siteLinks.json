@@ -1,0 +1,32 @@
+[
+  {
+    "icon": "Blog",
+    "name": "博客",
+    "link": "https://babade.asia/"
+  },
+  {
+    "icon": "CompactDisc",
+    "name": "音乐",
+    "link": "https://github.com/quanKris/repo"
+  },
+  {
+    "icon": "Compass",
+    "name": "起始页",
+    "link": "https://github.com/quanKris/repo"
+  },
+  {
+    "icon": "Book",
+    "name": "网址集",
+    "link": "https://github.com/quanKris/repo"
+  },
+  {
+    "icon": "Fire",
+    "name": "今日热榜",
+    "link": "https://github.com/quanKris/repo"
+  },
+  {
+    "icon": "LaptopCode",
+    "name": "站点监测",
+    "link": "https://github.com/quanKris/repo"
+  }
+]
