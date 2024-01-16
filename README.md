@@ -2,7 +2,6 @@
 
 <p>
 <strong><h2>Quan Home</h2></strong>
-简单的小主页，原来的看够了，重新弄了一个
 </p>
 
 ![Quan Home](/screenshots/main.jpg)
@@ -34,11 +33,9 @@
 
 - 在成功 `fork` 仓库后，前往 `Actions` 页面，若您是首次开启，则会出现下面的提示，点击开启
   
-  ![步骤1](/screenshots/step1.jpg)
 
 - 然后在仓库中进行任意修改后均会触发工作流的运行，在工作流完成后，会在下方生成一个可供下载的压缩包，这就是构建出的静态文件，可自行上传至服务器
   
-  ![步骤2](/screenshots/step2.jpg)
 
 ### 手动部署
 
