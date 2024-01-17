@@ -5,17 +5,12 @@ English | [Chinese](./README.md)
 Simple little homepage, had enough of the original one and made a new one
 </p>
 
-![Quan Home](https://s2.loli.net/2022/07/14/K5JigfvDoNewtuS.webp)
-
 >The logo font on the home page has been compressed, so if you use a font other than this logo, it will change back to the default font, Here is the [full font](https://file.4everland.app/font/Other/Pacifico-Regular.ttf)  
 
 ### Demo
 
 >Due to CDN caching, you may need `Ctrl` + `F5` to force a browser cache refresh to see the latest results
 
-- [Quan Home](https://www.imsyy.top)
-- [Quan Home - Dev](https://home-imsyy.vercel.app)
-- [Quan Home - Standby](https://home-5iw.pages.dev)
 
 ### Functions
 

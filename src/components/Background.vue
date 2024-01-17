@@ -111,12 +111,6 @@ onBeforeUnmount(() => {
     height: 100%;
     object-fit: cover;
     backface-visibility: hidden;
-    filter: blur(20px) brightness(0.3);
-    transition:
-      filter 0.3s,
-      transform 0.3s;
-    animation: fade-blur-in 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-    animation-delay: 0.45s;
   }
   .gray {
     opacity: 1;
@@ -125,13 +119,14 @@ onBeforeUnmount(() => {
     top: 0;
     width: 100%;
     height: 100%;
+    // 背景图四周渐变
     background-image: radial-gradient(rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.5) 100%),
       radial-gradient(rgba(0, 0, 0, 0) 33%, rgba(0, 0, 0, 0.3) 166%);
 
-    transition: 1.5s;
+    transition: 0.1s;
     &.hidden {
       opacity: 0;
-      transition: 1.5s;
+      transition: 0.1s;
     }
   }
   .down {

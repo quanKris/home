@@ -108,13 +108,7 @@ onMounted(() => {
   const styleTitle2 = "font-size:12px;color: rgb(244,167,89);";
   const styleContent = "color: rgb(30,152,255);";
   const title1 = "Quan Home";
-  const title2 = `
- _____ __  __  _______     ____     __
-|_   _|  \\/  |/ ____\\ \\   / /\\ \\   / /
-  | | | \\  / | (___  \\ \\_/ /  \\ \\_/ /
-  | | | |\\/| |\\___ \\  \\   /    \\   /
- _| |_| |  | |____) |  | |      | |
-|_____|_|  |_|_____/   |_|      |_|`;
+  const title2 = ``;
   const content = `\n\n版本: ${config.version}\n主页: ${config.home}\nGithub: ${config.github}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
@@ -131,10 +125,6 @@ onBeforeUnmount(() => {
   left: 0;
   width: 100%;
   height: 100%;
-  transform: scale(1.2);
-  transition: transform 0.3s;
-  animation: fade-blur-main-in 0.65s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
-  animation-delay: 0.5s;
   .container {
     width: 100%;
     height: 100vh;
@@ -157,7 +147,6 @@ onBeforeUnmount(() => {
       background-color: #00000080;
       backdrop-filter: blur(20px);
       z-index: 2;
-      animation: fade 0.5s;
     }
     @media (max-width: 1200px) {
       padding: 0 2vw;
@@ -176,7 +165,6 @@ onBeforeUnmount(() => {
     backdrop-filter: blur(10px);
     border-radius: 6px;
     transition: transform 0.3s;
-    animation: fade 0.5s;
     &:active {
       transform: scale(0.95);
     }

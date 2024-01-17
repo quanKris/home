@@ -9,8 +9,8 @@
         <span class="tip"> Loading... </span>
       </div>
     </div>
-    <div class="loader-section section-left" />
-    <div class="loader-section section-right" />
+    <!-- <div class="loader-section section-left" />
+    <div class="loader-section section-right" /> -->
   </div>
 </template>
 
