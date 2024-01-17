@@ -2,7 +2,7 @@
   {
     "name": "Github",
     "icon": "/images/icon/github.png",
-    "tip": "去 Github 看看",
+    "tip": "欢迎提issue",
     "url": "https://github.com/quanKris"
   },
   {
@@ -14,7 +14,7 @@
   {
     "name": "QQ",
     "icon": "/images/icon/qq.png",
-    "tip": "有什么事吗",
+    "tip": "",
     "url": "https://res.abeim.cn/api/qq/?qq=320356500"
   },
   {
@@ -28,5 +28,17 @@
     "icon": "/images/icon/twitter.png",
     "tip": "推",
     "url": "https://twitter.com/"
+  },
+  {
+    "name": "CNN",
+    "icon": "/images/icon/cnn.png",
+    "tip": "News",
+    "url": "https://www.cnn.com/"
+  },
+  {
+    "name": "BOSS",
+    "icon": "/images/icon/boss.png",
+    "tip": "方便跑路",
+    "url": "https://www.zhipin.com/dalian/?ka=char_select_city_101070200"
   }
 ]
