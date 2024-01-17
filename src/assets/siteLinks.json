@@ -2,7 +2,7 @@
   {
     "icon": "Blog",
     "name": "博客",
-    "link": "https://babade.asia/"
+    "link": "https://blog.babade.asia/"
   },
   {
     "icon": "CompactDisc",
@@ -12,21 +12,21 @@
   {
     "icon": "Compass",
     "name": "起始页",
-    "link": "https://github.com/quanKris/repo"
+    "link": "https://babade.asia/"
   },
   {
-    "icon": "Book",
-    "name": "网址集",
-    "link": "https://github.com/quanKris/repo"
+    "icon": "Link",
+    "name": "Link",
+    "link": "https://blog.babade.asia/docs/link/link.html"
   },
   {
     "icon": "Fire",
-    "name": "今日热榜",
-    "link": "https://github.com/quanKris/repo"
+    "name": "待开发",
+    "link": "https://babade.asia/"
   },
   {
     "icon": "LaptopCode",
-    "name": "站点监测",
-    "link": "https://github.com/quanKris/repo"
+    "name": "待开发",
+    "link": "https://babade.asia/"
   }
 ]

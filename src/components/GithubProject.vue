@@ -44,15 +44,15 @@ import { Pagination, Mousewheel } from "swiper";
 // 仓库数据
 const projectData = [
   {
+    name: "home",
+    author: "quanKris",
+    desc: "个人主页",
+  },
+  {
     name: "repo",
     author: "quanKris",
     desc: "个人博客",
   },
-  {
-    name: "aaa",
-    author: "quanKris",
-    desc: "初始项目，可忽略",
-  }
 ];
 
 // 计算网站链接

@@ -1,6 +1,6 @@
 <template>
   <!-- 功能区域 -->
-  <div :class="store.mobileFuncState ? 'function mobile' : 'function'">
+  <div :class="store.mobileFuncState ? 'function mobile' : 'function pc'">
     <el-row :gutter="20">
       <el-col :span="12">
         <div class="left">
@@ -66,6 +66,9 @@ onBeforeUnmount(() => {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  &.pc{
+    margin-bottom: 25px;
+  }
   &.mobile {
     .el-row {
       .el-col {

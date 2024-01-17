@@ -9,18 +9,16 @@
             -
           </span>
           {{ fullYear }}
-          <a :href="siteUrl">{{ siteAnthor }}</a>
         </span>
         <!-- 以下信息请不要修改哦 -->
-        <span class="hidden">
-          &amp;&nbsp;Made&nbsp;by
+        <span class="hidden made">
+          &nbsp;Made&nbsp;by
           <a :href="config.github" target="_blank">
             {{ config.author }}
           </a>
         </span>
         <!-- 站点备案 -->
-        <a v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
-          &amp;
+        <a class="icp" v-if="siteIcp" href="https://beian.miit.gov.cn" target="_blank">
           {{ siteIcp }}
         </a>
       </div>
@@ -48,16 +46,16 @@ const fullYear = new Date().getFullYear();
 // 加载配置数据
 const siteStartDate = ref(import.meta.env.VITE_SITE_START);
 const siteIcp = ref(import.meta.env.VITE_SITE_ICP);
-const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
-const siteUrl = computed(() => {
-  const url = import.meta.env.VITE_SITE_URL;
-  if (!url) return "https://babade.asia";
-  // 判断协议前缀
-  if (!url.startsWith("http://") && !url.startsWith("https://")) {
-    return "//" + url;
-  }
-  return url;
-});
+// const siteAnthor = ref(import.meta.env.VITE_SITE_ANTHOR);
+// const siteUrl = computed(() => {
+//   const url = import.meta.env.VITE_SITE_URL;
+//   if (!url) return "https://babade.asia";
+//   // 判断协议前缀
+//   if (!url.startsWith("http://") && !url.startsWith("https://")) {
+//     return "//" + url;
+//   }
+//   return url;
+// });
 </script>
 
 <style lang="scss" scoped>
@@ -73,6 +71,12 @@ const siteUrl = computed(() => {
   font-size: 14px;
   .power {
     animation: fade 0.3s;
+  }
+  .made{
+    margin-left: 15px;
+  }
+  .icp{
+    margin-left: 20px;
   }
   .lrc {
     padding: 0 20px;
