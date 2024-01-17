@@ -4,7 +4,7 @@
   "github": "https://github.com/quanKris/repo",
   "home": "https://babade.asia",
   "private": true,
-  "version": "4.1.4",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
