@@ -67,7 +67,7 @@ onBeforeUnmount(() => {
   align-items: center;
   justify-content: space-between;
   &.pc{
-    margin-bottom: 25px;
+    margin-bottom: 19px;
   }
   &.mobile {
     .el-row {
