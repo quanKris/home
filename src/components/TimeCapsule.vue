@@ -52,7 +52,6 @@ const endDate = computed(() => {
   return endDateTime;
 });
 const timeRemaining = ref({});
-
 const updateTimeData = () => {
     timeRemaining.value = getCurrentTime();
 };
