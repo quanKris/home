@@ -5,9 +5,9 @@
     "link": "https://blog.babade.asia/"
   },
   {
-    "icon": "DesktopWindowsRound",
-    "name": "控制台",
-    "link": "https://console.cloud.tencent.com/"
+    "icon": "Node",
+    "name": "管理系统",
+    "link": "https://management.babade.asia/"
   },
   {
     "icon": "Compass",
@@ -25,8 +25,8 @@
     "link": "https://www.baidu.com/"
   },
   {
-    "icon": "LaptopCode",
-    "name": "待开发",
-    "link": "https://babade.asia/"
+    "icon": "DesktopWindowsRound",
+    "name": "控制台",
+    "link": "https://console.cloud.tencent.com/"
   }
 ]

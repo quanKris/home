@@ -53,6 +53,16 @@ const projectData = [
     author: "quanKris",
     desc: "个人博客",
   },
+  {
+    name: "management-front",
+    author: "quanKris",
+    desc: "管理系统前端",
+  },
+  {
+    name: "management-node",
+    author: "quanKris",
+    desc: "管理系统后端",
+  },
 ];
 
 // 计算网站链接
